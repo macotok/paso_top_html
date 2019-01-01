@@ -1,11 +1,4 @@
-window.onload = () => {
-  const openingAnimation = new OpenigAnimation('.fn-logo', '.fn-pageList');
-  if (openingAnimation.logoElement) {
-    openingAnimation.event();
-  }
-};
-
-class OpenigAnimation {
+export default class OpeningAnimation {
   constructor(logoElement, pageListElement) {
     this.logoElement = document.querySelector(logoElement);
     this.pageListElement = document.querySelector(pageListElement);
