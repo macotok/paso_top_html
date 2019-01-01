@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 400;
-  src:
-          url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
-          url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
-          url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
-}
-
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -40,7 +30,7 @@ body {
     font-size: 14px;
     color: #4d4d4d;
     position: relative;
-    font-family: 'Noto Sans JP', 'News Cycle', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+    font-family: 'News Cycle', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -140,6 +130,10 @@ input, select {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.m-list-01-item {
+    color: #fbfbfb;
 }
 
 .m-list-01-item a {
