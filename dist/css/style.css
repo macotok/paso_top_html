@@ -159,6 +159,26 @@ input, select {
     width: 100%;
 }
 
+.m-background-01 {
+    width: 100vw;
+    height: 100vh;
+    background: #efefef;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.m-background-01::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    background: inherit;
+    filter: blur(5px);
+}
+
 .is-hide {
     display: none;
 }
@@ -191,4 +211,18 @@ input, select {
 
 .fadeOut {
     animation: fadeOut .3s ease 0s 1 forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .4;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn .3s ease 0s 1 forwards;
 }
