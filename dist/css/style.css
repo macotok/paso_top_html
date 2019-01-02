@@ -30,6 +30,7 @@ body {
     font-size: 14px;
     color: #4d4d4d;
     position: relative;
+    letter-spacing: 0.08em;
     font-family: 'News Cycle', 'Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
 }
 article,aside,details,figcaption,figure,
