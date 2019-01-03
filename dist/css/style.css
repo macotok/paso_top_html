@@ -160,6 +160,12 @@ input, select {
     width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+    .m-list-01-item a:hover:before {
+        display: none;
+    }
+}
+
 .m-background-01 {
     width: 100vw;
     height: 100vh;
